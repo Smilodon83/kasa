@@ -1,0 +1,20 @@
+.cardsContainer{
+    display: flex;
+    width: 85%;
+    margin: 40px auto;
+    padding: 50px 0 50px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    @media (max-width: 848px) {
+        background-color: white;
+        margin: 0% auto;
+        padding: 3% 0 3% 0;
+        gap: 1em;
+
+    }
+   
+      
+}

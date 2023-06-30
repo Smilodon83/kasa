@@ -1,0 +1,33 @@
+.navLogo{
+    height: 68px;
+    padding-left: 5%;
+    @media (max-width : 500px ){
+        height: 44px;
+    }
+    @media (max-width: 340px){
+        height: 36px
+    }
+}
+
+.navBar{
+    width: 98%;
+    padding: 2% 0 0 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        padding-right: 30px;
+        font-weight: 500;
+        color: #ff6060;
+        text-decoration: none;
+        font-size: 18px;
+       &.active{
+        text-decoration: underline;
+        text-underline-offset: 4px;
+       }
+       @media (max-width: 500px ){
+        font-size: 14px
+       }
+    }
+}

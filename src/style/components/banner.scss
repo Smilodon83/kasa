@@ -1,0 +1,44 @@
+.bannerContainer{
+  max-width: 85%;
+    margin: 5% auto;
+    height: 220px;
+    @media (max-width: 848px){
+        height: 110px;
+        margin: 2% auto;
+    }
+
+
+   
+    .bannerWrapper{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        .cover{
+
+            width: 100%;
+            border-radius: 30px;
+            object-fit: cover;
+            filter : brightness(80%);
+            @media (max-width: 848px){
+                border-radius: 10px;
+            }
+            
+        }
+        .bannerTitle{
+            position: absolute;
+            align-self: center;
+            margin: 25px;
+            overflow: hidden;
+            color: white;
+            font-weight: 500;
+            @media(max-width: 848px){
+                max-width: 220px;
+                left: 10%;
+            }
+            
+          
+        }
+    }
+}
+

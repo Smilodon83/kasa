@@ -1,0 +1,19 @@
+.router{
+    flex: 1; 
+ }
+
+.footerContainer{
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    .footerLogo{
+        height: 40px;
+        filter:brightness(10);
+    }
+}

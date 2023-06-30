@@ -1,0 +1,16 @@
+.mainAbout{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+.aboutCollapseWrapper{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media (max-width: 848px){
+           margin-top: 60px; 
+        }
+    }
+}
